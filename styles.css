@@ -1,0 +1,60 @@
+h2 {
+    background-color: red;
+    font-size: 48px;
+    color: white;
+}
+
+.odd {
+    background-color: rgb(235, 124, 142);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#two {
+    font-size: 36px;
+    color: blue;
+}
+
+#four{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Grouping selectors:*/ 
+.whiteblack,
+.yellowblack{
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+}
+
+.whiteblack{
+    background-color: black;
+    color:white;
+}
+
+.yellowblack{
+    background-color: yellow;
+}
+
+/*Chaining selectors*/
+.avatar.proportioned{
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
+
+/*Descendant Combinator*/
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    align-content: center;
+}
