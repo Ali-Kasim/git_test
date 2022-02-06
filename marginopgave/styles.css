@@ -1,6 +1,9 @@
 body {
     max-width: 600px;
     margin: 0 auto;
+    background: #eee;
+    font-family: sans-serif;
+
   }
   
   .one {
@@ -15,7 +18,7 @@ body {
     background: lightblue;
     border: 3px solid purple;
     /* CHANGE ME */
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
   
   .three {
@@ -24,5 +27,40 @@ body {
     width: 200px;
     /* CHANGE ME */
     padding: 32px;
-    margin-left: 330px;
+    margin-left: auto;
+  }
+
+  
+  .card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+    padding: 12px;
+  }
+  
+  .title {
+    background: #e3f4ff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .content {
+    background: #e3f4ff;
+    margin-bottom: 12px;
+    padding: 10px 10px;
+  }
+  
+  .button-container {
+    background: #e3f4ff;
+    text-align: center;
+    padding: 12px;
+  }
+  
+  button {
+    display: block;
+    margin: auto;
+    background: white;
+    border: 1px solid #eee;
   }
